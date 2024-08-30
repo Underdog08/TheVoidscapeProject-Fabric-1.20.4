@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "voidscape",
+	"version": "${version}",
+	"name": "The Voidscape Project",
+	"description": "End Update Concept",
+	"authors": [
+		"UnderdogWasTaken"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/voidscape/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.underdog.voidscape.VoidscapeProject"
+		],
+		"client": [
+			"com.underdog.voidscape.VoidscapeProjectClient"
+		],
+		"fabric-datagen": [
+			"com.underdog.voidscape.VoidscapeProjectDataGenerator"
+		]
+	},
+	"mixins": [
+		"voidscape.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
