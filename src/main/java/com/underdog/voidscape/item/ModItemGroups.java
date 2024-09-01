@@ -18,10 +18,11 @@ public class ModItemGroups {
             FabricItemGroup.builder()
                     .icon(() -> new ItemStack(ModBlocks.END_SAND))
                     .displayName(Text.translatable("itemgroup.voidscape.voidscape_blocks"))
-                    .entries(((displayContext, entries) -> {
+                    .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.END_SAND);
                         entries.add(ModBlocks.END_SANDSTONE);
                         entries.add(ModBlocks.NULL_STONE);
+                        entries.add(ModBlocks.POLISHED_NULL_STONE);
                         entries.add(ModBlocks.NULL_STONE_BRICKS);
                         entries.add(ModBlocks.CUT_NULL_STONE);
                         entries.add(ModBlocks.CHISELED_NULL_STONE);
@@ -29,7 +30,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.VOIDLICH);
                         entries.add(ModBlocks.VOIDLICH_GRASS);
                         entries.add(ModBlocks.VOIDLICH_FRILL);
-                    }))
+                    })
                     .build());
 
     public static final ItemGroup VOIDSCAPE_ITEMS = Registry.register(Registries.ITEM_GROUP,
@@ -38,10 +39,10 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.VOIDROOT_PODS))
                     .displayName(Text.translatable("itemgroup.voidscape.voidscape_items"))
                     .entries((displayContext, entries) -> {
-                                entries.add(ModItems.VOIDROOT_PODS);
-                                entries.add(ModItems.TWILIGHT_DISC);
-                            }
-                    )
+                        entries.add(ModItems.VOIDROOT_PODS);
+                        entries.add(ModItems.MITE_GEL);
+                        entries.add(ModItems.TWILIGHT_DISC);
+                    })
                     .build());
 
 

@@ -14,6 +14,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.END_SAND);
         addDrop(ModBlocks.END_SANDSTONE);
         addDrop(ModBlocks.NULL_STONE);
+        addDrop(ModBlocks.POLISHED_NULL_STONE);
         addDrop(ModBlocks.NULL_STONE_BRICKS);
         addDrop(ModBlocks.CHISELED_NULL_STONE);
         addDrop(ModBlocks.CUT_NULL_STONE);

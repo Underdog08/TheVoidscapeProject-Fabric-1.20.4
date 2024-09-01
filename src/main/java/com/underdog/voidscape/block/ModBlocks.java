@@ -61,6 +61,13 @@ public class ModBlocks {
             .requiresTool())
     );
 
+    public static final Block POLISHED_NULL_STONE = registerBlock("polished_null_stone", new Block(FabricBlockSettings.of()
+            .strength(20, 0)
+            .instrument(Instrument.IRON_XYLOPHONE)
+            .mapColor(MapColor.BLACK)
+            .sounds(BlockSoundGroup.DEEPSLATE)
+            .requiresTool()));
+
     public static final Block NULL_STONE_BRICKS = registerBlock("null_stone_bricks", new Block(FabricBlockSettings.of()
             .strength(20, 0)
             .instrument(Instrument.IRON_XYLOPHONE)

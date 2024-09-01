@@ -20,6 +20,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.END_SANDSTONE)
                 .add(ModBlocks.INFESTED_ENDSTONE)
                 .add(ModBlocks.NULL_STONE)
+                .add(ModBlocks.POLISHED_NULL_STONE)
                 .add(ModBlocks.NULL_STONE_BRICKS)
                 .add(ModBlocks.CUT_NULL_STONE)
                 .add(ModBlocks.CHISELED_NULL_STONE);
@@ -32,6 +33,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.NULL_STONE)
+                .add(ModBlocks.POLISHED_NULL_STONE)
                 .add(ModBlocks.NULL_STONE_BRICKS)
                 .add(ModBlocks.CUT_NULL_STONE)
                 .add(ModBlocks.CHISELED_NULL_STONE);

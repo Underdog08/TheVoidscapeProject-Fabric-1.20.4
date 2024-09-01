@@ -1,6 +1,13 @@
 {
   "block.voidscape.end_sand": "End Sand",
   "block.voidscape.end_sandstone": "End Sandstone",
+
+  "block.voidscape.null_stone": "Nullstone",
+  "block.voidscape.polished_null_stone": "Polished Nullstone",
+  "block.voidscape.null_stone_bricks": "Nullstone Bricks",
+  "block.voidscape.cut_null_stone": "Cut Nullstone",
+  "block.voidscape.chiseled_null_stone": "Chiseled Nullstone",
+
   "block.voidscape.voidlich": "Voidlich",
   "block.voidscape.voidlich_grass": "Voidlich Grass",
   "block.voidscape.voidlich_frill": "Voidlich Frill",
@@ -11,6 +18,7 @@
 
 
   "item.voidscape.voidroot_pods": "Voidroot Pods",
+  "item.voidscape.mite_gel": "Mite Gel",
   "item.voidscape.twilight_disc": "Music Disc",
   "item.voidscape.twilight_disc.desc": "Underdog - Twilight"
 }

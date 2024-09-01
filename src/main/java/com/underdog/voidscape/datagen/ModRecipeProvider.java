@@ -15,6 +15,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public void generate(RecipeExporter exporter) {
 
         offer2x2CompactingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.END_SANDSTONE, ModBlocks.END_SAND);
+        
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_NULL_STONE, ModBlocks.NULL_STONE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_NULL_STONE, ModBlocks.NULL_STONE, 1);
+
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NULL_STONE_BRICKS, ModBlocks.POLISHED_NULL_STONE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NULL_STONE_BRICKS, ModBlocks.POLISHED_NULL_STONE, 1);
 
     }
 }
