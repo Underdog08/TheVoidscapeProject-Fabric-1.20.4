@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.underdog.voidscape.VoidscapeProject"
+			"com.underdog.voidscape.Voidscape"
 		],
 		"client": [
-			"com.underdog.voidscape.VoidscapeProjectClient"
+			"com.underdog.voidscape.VoidscapeClient"
 		],
 		"fabric-datagen": [
-			"com.underdog.voidscape.VoidscapeProjectDataGenerator"
+			"com.underdog.voidscape.VoidscapeDataGenerator"
 		]
 	},
 	"mixins": [

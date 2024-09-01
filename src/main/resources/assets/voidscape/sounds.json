@@ -1,0 +1,10 @@
+{
+  "twilight_disc": {
+    "sounds": [
+      {
+        "name": "voidscape:twilight_disc",
+        "stream": true
+      }
+    ]
+  }
+}

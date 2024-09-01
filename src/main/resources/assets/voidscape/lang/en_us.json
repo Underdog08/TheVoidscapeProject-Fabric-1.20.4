@@ -1,0 +1,16 @@
+{
+  "block.voidscape.end_sand": "End Sand",
+  "block.voidscape.end_sandstone": "End Sandstone",
+  "block.voidscape.voidlich": "Voidlich",
+  "block.voidscape.voidlich_grass": "Voidlich Grass",
+  "block.voidscape.voidlich_frill": "Voidlich Frill",
+
+
+  "itemgroup.voidscape.voidscape_blocks": "Voidscape Blocks",
+  "itemgroup.voidscape.voidscape_items": "Voidscape Items",
+
+
+  "item.voidscape.voidroot_pods": "Voidroot Pods",
+  "item.voidscape.twilight_disc": "Music Disc",
+  "item.voidscape.twilight_disc.desc": "Underdog - Twilight"
+}
