@@ -29,7 +29,7 @@ public class ModItems {
                     .food(new FoodComponent.Builder()
                             .hunger(1)
                             .saturationModifier(0.5f)
-                            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 10, 1, false, false, false), 1)
+                            //.statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 10, 1, false, false, false), 1)
                             .build())));
 
 
