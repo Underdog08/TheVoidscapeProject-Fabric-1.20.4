@@ -1,0 +1,5 @@
+// 1.20.4	2024-09-02T09:14:13.9604775	The Voidscape Project/Tags for minecraft:block
+cd23603d4dc24bc7607943539238ca33ce76fd37 data\minecraft\tags\blocks\needs_iron_tool.json
+ed52613eaf93596660d589c98868145d2f900b74 data\minecraft\tags\blocks\mineable\pickaxe.json
+ce4130c315952076877691564797ca2ba2bdbbda data\minecraft\tags\blocks\mineable\hoe.json
+3a2dfce709d22a5a7263a1d3bf5bc0ee40795212 data\minecraft\tags\blocks\mineable\shovel.json

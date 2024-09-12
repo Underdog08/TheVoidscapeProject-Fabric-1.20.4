@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "voidscape:null_stone",
+    "voidscape:polished_null_stone",
+    "voidscape:null_stone_bricks",
+    "voidscape:cut_null_stone",
+    "voidscape:chiseled_null_stone"
+  ]
+}

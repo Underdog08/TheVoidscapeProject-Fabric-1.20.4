@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "voidscape:end_sandstone",
+    "voidscape:infested_endstone",
+    "voidscape:null_stone",
+    "voidscape:polished_null_stone",
+    "voidscape:null_stone_bricks",
+    "voidscape:cut_null_stone",
+    "voidscape:chiseled_null_stone"
+  ]
+}

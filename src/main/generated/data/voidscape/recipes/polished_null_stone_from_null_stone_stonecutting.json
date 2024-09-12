@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "voidscape:null_stone"
+  },
+  "result": "voidscape:polished_null_stone"
+}

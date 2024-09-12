@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "voidscape:block/chiseled_null_stone_top",
+    "side": "voidscape:block/chiseled_null_stone_side"
+  }
+}
